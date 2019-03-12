@@ -1,0 +1,9 @@
+# dependencies
+node_modules
+.next
+
+# logs
+yarn-error.log
+
+# dotenv
+.env

@@ -1,0 +1,47 @@
+{
+  "name": "next-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "next build",
+    "dev": "nodemon server.js",
+    "start": "pm2 start ecosystem.config.js --env production",
+    "start-public": "pm2 start ecosystem.config.js --env public-develop"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "bcrypt-nodejs": "^0.0.3",
+    "body-parser": "^1.18.3",
+    "core-js": "^2.6.5",
+    "crypto": "^1.0.1",
+    "express": "^4.16.4",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.11",
+    "mobx": "^5.7.0",
+    "mobx-react": "^5.4.2",
+    "moment": "^2.22.2",
+    "mysql2": "^1.6.4",
+    "next": "^7.0.2",
+    "node-sass": "^4.11.0",
+    "nodemon": "^1.18.7",
+    "path": "^0.12.7",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
+    "sequelize": "^4.41.2",
+    "superagent": "^3.8.3",
+    "superagent-defaults": "^0.1.14"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.1.0",
+    "@babel/plugin-proposal-decorators": "^7.1.2",
+    "@babel/polyfill": "^7.2.5",
+    "babel-plugin-module-resolver": "^3.0.0"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
